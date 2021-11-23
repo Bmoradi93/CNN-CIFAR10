@@ -7,6 +7,7 @@ In order to make the training pipeline straightforward, the CIFAR10 dataset will
 **I assume you are using ubuntu 18/20.04 as your OS**
 **Please open a terminal and execute the following commands to install
 your dependencies:**
+```
 
 sudo apt-get update
 
@@ -41,14 +42,18 @@ echo "export WORKON_HOME=$HOME/.virtualenvs" >> ~/.bashrc
 echo "export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3" >> ~/.bashrc
 
 echo "source /usr/local/bin/virtualenvwrapper.sh" >> ~/.bashrc
+```
 
 **Please create and enter the python env using the following commands:**
 
+```
 mkvirtualenv cnn_cifar10 -p python3
+```
 
 **Please enter the env using the following command:**
-
+```
 workon cnn_cifar10
+```
 
 **Please install the followings inside your environemnt:**
 
