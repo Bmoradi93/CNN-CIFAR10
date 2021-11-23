@@ -1,0 +1,19 @@
+classes: ['airplane', 'automobile', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck']
+input_shape_x: 32
+input_shape_y: 32
+num_channels: 3
+batch_size: 32
+num_classes: 10
+num_epochs: 20
+learning_rate: 0.0001
+decay: 0.000001
+dropout_value_layer_1: 0.25
+dropout_value_layer_2: 0.25
+dropout_value_layer_3: 0.5
+num_nurons_layer_2: 64
+num_nurons_layer_3: 512
+act_func_layer_2: 'relu'
+act_func_layer_3: 'relu'
+act_func_softmax_layer: 'softmax'
+loss_function: 'categorical_crossentropy'
+regularization_method: 'l2'  # (1): dropout, (2): l2
