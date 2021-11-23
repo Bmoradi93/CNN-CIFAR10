@@ -78,7 +78,10 @@ pip3 install pyyaml
 ```
 
 # Running the code
+```
+cd code/
 python3 train.py
+```
 
 ## Licence and copyright
 Behnam Moradi
