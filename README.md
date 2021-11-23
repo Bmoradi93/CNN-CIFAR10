@@ -52,6 +52,7 @@ workon cnn_cifar10
 
 **Please install the followings inside your environemnt:**
 
+```
 pip3 install numpy
 
 pip3 install opencv-contrib-python
@@ -69,6 +70,7 @@ pip3 install keras
 pip3 install pandas
 
 pip3 install pyyaml
+```
 
 # Running the code
 python3 train.py
